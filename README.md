@@ -38,7 +38,16 @@ cd IonicProject [Your Project Name]
 
 ionic serve
 
+## CONFIGURAÇÃO GITHUB
 
+1. ssh-keygen -t rsa -b 4096 -C "wesleyfloresterres@gmail.com"
+
+2. eval "$(ssh-agent -s)"
+
+3. ssh-add ~/.ssh/id_rsa
+
+4. cat /home/$USER/.ssh/id_rsa.pub [Copiar a saída desse comando e, em <https://github.com/settings/keys>, adicionar uma nova
+chave ssh, através do botão "New SSH Key".
 
 ## CRATING A NEW PAGE
 
